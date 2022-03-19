@@ -1,0 +1,65 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-size: 18px;
+    color: #000;
+}
+footer {
+    background-color: #424242;
+}
+
+.yacht-section-1 {
+    background-image: url(/images/fathom-yachts.jpeg);
+    background-position: 50%;
+    background-size: cover;
+    min-height: 400px;
+}
+.yacht-section-2 {
+    background-image: url(/images/yacht-charters.jpeg);
+    background-position: 50%;
+    background-size: cover;
+    min-height: 350px;
+}
+.about-membership-section {
+    background-image: url(/images/waves-bg-scaled.jpg);
+    background-position: 50%;
+    background-size: cover;
+}
+@media screen and (max-width: 768px) {
+    .vertical-timeline-element-icon {
+        margin-left: 5px !important;
+    }
+}
+@media only screen and (min-width: 1170px) {
+    .vertical-timeline-element {
+        margin: 2em 0 !important;
+    }
+}
+.vertical-timeline.vertical-timeline--two-columns:before {
+    margin-left: -1px !important;
+}
+.vertical-timeline::before {
+    width: 2px !important;
+}
+.faq-item-body p {
+    margin-bottom: 10px;
+}
+.faq-item-body ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+.image-block span {
+    display: block !important;
+}
+@media screen and (max-width: 768px) {
+    .responsive.image-block span {
+        width: auto !important;
+        height: auto !important;
+    }
+    .responsive.image-block img {
+        position: relative !important;
+        width: auto !important;
+        height: auto !important;
+    }
+}
